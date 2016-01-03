@@ -1,4 +1,4 @@
-package threadApp;
+package paintingPanel;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -33,9 +33,8 @@ public class PaintingPanel extends JPanel implements MouseListener, MouseMotionL
 			public void actionPerformed(ActionEvent evt) {
 				paintAgain();
 			}
-			
 		});
-			
+		
 	}
 	
 	public void paintAgain() {
@@ -96,5 +95,4 @@ public class PaintingPanel extends JPanel implements MouseListener, MouseMotionL
 		mainFrame.setLocationRelativeTo(null);
 		mainFrame.setVisible(true);
 	}
-	
 }
